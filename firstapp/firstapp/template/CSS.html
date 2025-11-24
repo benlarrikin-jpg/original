@@ -1,0 +1,511 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      body {background-color: olivedrab;
+      }
+      h1 {
+        color: purple;
+        text-align: center; 
+      }
+      p {
+        color: brown;
+        font-family: Verdana;
+        font-size: 20px;
+      }
+      </style>
+      <body>
+      <h1>My first CSS example</h1>
+      <p>This is the beginning</p>
+      </body>
+      <hr>
+
+      <style>
+        #para1 {
+          text-align: left;
+          background-color: yellow;
+          color: brown;
+        }
+        h2 {
+          text-align: right;
+          color: blue;
+        }
+        </style>
+        <body>
+          <h2>Second CSS header</h2>
+          <p id="para1">The beginning</p>
+        </body>
+        <hr>
+
+        <style>
+          .center {
+            text-align: center;
+            color: black;
+            font-family: sans-serif;
+          }
+          p.large {
+            font-size: 20px;
+          }
+          </style>
+          <body>
+            <h3 class="center">Third CSS example</h3>
+            <p class="center">The beginning again</p>
+            <p class="center large">This is mine</p>
+          </body>
+          <hr>
+
+          <style>
+            h1, h2, h3, p { text-align: center;
+            }
+            </style>
+            <body>
+              <h1 class="center">CSC</h1>
+              <h2 class="center">SSC</h2>
+              <h3 class="center">CSS</h3>
+            </body>
+            <hr>
+
+            <h1 style="color:blue; text-align: center;">Inline styles</h1>
+            <p style="color:red;">This is a stylesheet</p>
+            <hr>
+
+            <link rel="stylesheet" type="text/css" href="mystyle.css">
+            <style>
+              h5 {color: orange;
+                text-align: right;
+                font-size: 10px;
+              }
+            </style>
+            <body>
+            <h5>This is a stylesheet</h5>
+            <p>Combination of external and internal</p>
+            </body>
+            <hr>
+
+            <style>
+          h6 {
+        color: navy;
+        font-size: 30px;
+        }
+        p.mix {
+          border-style: dashed dotted double ridge;
+          border-color: aqua blue green yellow;
+          border-radius: 30px;
+        }
+            /* I write comments */
+            </style>
+            <body>
+              <h6 style="border: 5px solid red;">This is a stylesheet</h6>
+              <p>The style of this document is a combination of an external stylesheet,
+                and internal style</p>
+                <p class="mix"> a mixed border </p>
+                </body>
+                <hr>
+                
+                <style>
+                  div {
+                    margin: 20px;
+                    border: 5px solid skyblue;
+                     background-color: whitesmoke;
+                        opacity: 1;
+                    }
+                    </style>
+                    <h1> Time for margins </h1>
+                    <div> greenyellow is a funny color </div>
+                    <hr>
+                   
+                    <style>
+                    div.ex1 {
+                      padding: 10px, 20px, 30px, 10px;
+                      width: 300;
+                      background-color: blueviolet;
+                      border-color: brown;
+                      }
+                      div.ex2 {
+                        width: 1200px;
+                        padding: 20px;
+                        background-color: pink;
+                        border: 3px solid black;
+                      }
+                      </style>
+                      <body>
+                      <h1>Using individual padding properties</h1>
+                      <div class="ex1">This element has a top padding</div>
+                      <div class="ex2"> This element has a right padding, a bottom padding of 50px, and a left padding.</div>
+                      </body>
+                      <hr>
+
+                      <style>
+                        .div {
+                          border: 1px solid gray;
+                          padding: 8px;
+                        }
+                        p {
+                          text-indent: 50px;
+                          text-align: justify;
+                          letter-spacing: 3px;
+                          word-spacing: 5px;
+                        }
+                        a {
+                          text-decoration: none;
+                          color: blue;
+                        }              
+                      </style>
+                      <body>
+                        <div>
+                          <p>This text is styled with some of the text formatting properties.
+                          <a target="_blank" href="tryit.asp?filename=trycss_text">"formatting"</a> link.</p>
+                        </div>
+                      </body>
+                      <hr>
+
+                      <style>
+                        h1 {
+                          text-decoration: underline black;
+                          letter-spacing: 5px;
+                        }
+                        p.ex {
+                          text-decoration: overline underline;
+                          text-decoration-style: dotted;
+                          text-decoration-thickness: 5px;
+                        }
+                        p.uppercase {
+                          text-transform: uppercase;
+                        }
+                      </style>
+                      <body>
+                        <h1>Overline text decoration</h1>
+                        <p class="ex">Overline and underline text decoration.</p>
+                        <p class="uppercase">This text is transformed to uppercase.</p>
+                      </body>
+                      <hr>
+
+                      <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia&effect=fire|neon|">
+                      <style>
+                        body {
+                          font-family: "sofia", sans-serif;
+                          font-size: 30px;
+                        }
+                        h6 {
+                          text-align: right;
+                        }
+                      </style>
+                      
+                      <body>
+                        <h6 class="font-effect-fire">Sofia on fire</h6>
+                        <p class="font-effect-fire">Sofia is hot</p>
+                        <p class="font-effect-neon">Sofia is cool</p>
+                      </body>
+                      <hr>
+
+                      <meta name="viewport" content="width=device-width, initial-scale=1">
+                      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+                      <body class="fill">
+                        <h1>Bootstrap icon library</h1>
+                        <p>Some Bootstrap icons:</p>
+                        <i class="glyphicon glyphicon-cloud"></i>
+                        <i class="glyphicon glyphicon-fire"></i>
+                        <i class="glyphicon glyphicon-user"></i>
+                        <i class="glyphicon glyphicon-star"></i>
+
+                        <p>Styled Bootstrap icons (size and color):</p>
+                        <i class="glyphicon glyphicon-cloud" style="font-size:40px;"></i>
+                        <i class="glyphicon glyphicon-fire" style="font-size:50px;"></i>
+                        <i class="glyphicon glyphicon-user" style="font-size:60px;color:red;"></i>
+                        <i class="glyphicon glyphicon-star" style="font-size:70px;color:blue;"></i>
+                        <hr>
+                        
+                        <meta name="viewport" content="width=device-width, initial-scale=1">
+                        <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+                        <body>
+                        <h1>Google icon library</h1>
+                        <p>Some Google icons:</p>
+                        <i class="material-icons" style="font-size:70px;color: violet;">flag</i>
+                        <i class="material-icons" style="font-size:60px;color: gold;">attachment</i>
+                        <i class="material-icons" style="font-size:50px;">computer</i>
+                        <i class="material-icons" style="font-size:40px;">home</i>
+                        </body>
+                        <hr>
+
+                        <style>
+                          a:link {
+                            color: red;
+                            background-color: yellow;
+                            border: 3px solid greenyellow;
+                          }
+                          a:visited {
+                            color: green;
+                          }
+                          a:hover {
+                            color: brown;
+                            background-color: black;
+                            font-family: monospace;
+                          }
+                          a:active {
+                            color: blue;
+                          }
+                        </style>
+                        <body>
+                          <h1>Styling Link</h1>
+                          <p><a href="default.asp" target="_blank">This is a link</a></p>
+                          <hr>
+
+                          <h1>Cursor properties</h1>
+                          <p>Mouse over the words to change the cursor.</p>
+                          <span style="cursor:crosshair; font-size:30px;">crosshair</span><br>
+                          <span style="cursor:progress; font-size: 30px;">progress</span><br>
+                          <span style="cursor:move; font-size: 30px;">move</span><br>
+                        </body>
+                        <hr>
+
+                        <style>
+                          ul.a {list-style-type: disc;}
+                          ol.b {list-style-type: lower-roman;}
+                        </style>
+
+                        <body>
+                          <h1>List style typing</h1>
+                          <p>Unordered list:</p>
+                          <ul class="a">
+                            <li>headache</li>
+                            <li>fever</li>
+                            <li>cough</li>
+                          </ul>
+                          <p>Ordered list:</p>
+                          <ol class="b">
+                            <li>headache</li>
+                            <li>fever</li>
+                            <li>cough</li>
+                          </ol>
+                        </body>
+                        <hr>
+
+                        <style>
+                        table {
+                          font-family: Helvetica;
+                          border-collapse: separate;
+                          width: 60%;
+                        }
+                        td, th {
+                          border: 1px solid gray;
+                          padding: 8px;
+                          text-align: center;
+                        }
+                        tr:nth-child(even){background-color: lightsalmon;}
+                        tr:hover {background-color: lightskyblue;}
+                        th {
+                          padding-top: 15px;
+                          padding-bottom: 15px;
+                          text-align: center;
+                          background-color: greenyellow;
+                          color: rebeccapurple;
+                          }
+                          </style>
+
+                          <body>
+                            <table>
+                              <tr>
+                                <th>Friend</th>
+                                <th>Gender</th>
+                                <th>State</th>
+                              </tr>
+                              <tr>
+                                <td>Hilary</td>
+                                <td>Male</td>
+                                <td>Kaduna</td>
+                              </tr>
+                              <tr>
+                                <td>Elizabeth</td>
+                                <td>Female</td>
+                                <td>Benue</td>
+                              </tr>
+                              <tr>
+                                <td>Prince</td>
+                                <td>Male</td>
+                                <td>Abia</td>
+                              </tr>
+                          </body>
+                          
+                          <style>
+                            div.tablecontainer {
+                            overflow-x: auto;
+                          }
+                          table {
+                            border-collapse: collapse;
+                            width: 100%;
+                          }
+                          table, th, td {
+                            border: 1px solid lightblue;
+                            padding: 8px;
+                            text-align: left;
+                          }
+                          </style>
+
+                          <body>
+                            <h1>Responsive Table</h1>
+                            <p>To create a responsive table, 
+                              add a container element (like div) with <strong>overflow-x:auto</strong>
+                              around the table element:</p>
+                              <div class="tablecontainer">
+                                <table>
+                                  <tr>
+                                    <th>First Name</th>
+                                    <th>Last Name</th>
+                                    <th>Points</th>
+                                    <th>Points</th>
+                                    <th>Points</th>
+                                    <th>Points</th>
+                                    <th>Points</th>
+                                  </tr>
+                                  <tr>
+                                    <td>Hilary</td>
+                                    <td>Peter</td>
+                                    <td>50</td>
+                                    <td>60</td>
+                                    <td>70</td>
+                                    <td>80</td>
+                                    <td>90</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Elizabeth</td>
+                                    <td>Clara</td>
+                                    <td>94</td>
+                                    <td>84</td>
+                                    <td>74</td>
+                                    <td>64</td>
+                                    <td>54</td>
+                                  </tr>
+                                  <tr>
+                                    <td>Prince</td>
+                                    <td>Emmanuel</td>
+                                    <td>67</td>
+                                    <td>77</td>
+                                    <td>57</td>
+                                    <td>87</td>
+                                    <td>47</td>
+                                  </tr>
+                                </table>
+                              </div>
+                          </body>
+                          <hr>
+
+                          <style>
+                            #panel, .flip {
+                              padding: 10px;
+                              text-align: center;
+                              background-color: violet;
+                              color: white;
+                              border: solid 1px olivedrab;
+                              margin: auto;
+                              cursor:pointer;
+                            }
+                            #panel {
+                              display: none;
+                            }
+                          </style>
+                          <body>
+                            <p class="flip" onclick="myFunction()">Click to show/hide panel</p>
+                            <div id="panel">
+                              <p>How it works: When the user clicks on the p element, a function called myFunction() is executed,
+                                which changes the style of the div with id="panel" from display:none (hidden) to display:block
+                                (visible).</p>
+                            </div>
+
+                            <script>
+                            function myFunction() {
+                              var x = document.getElementById("panel");
+                              if (x.style.display === "none") {
+                                x.style.display = "block";
+                              } else {
+                                x.style.display = "none";
+                              }
+                            }
+                              </script>
+                          </body>
+                          <hr>
+
+                          <style>
+                            ul {
+                              list-style-type: none;
+                              margin: 10px;
+                              padding: 5px;
+                              background-color: wheat;
+                            }
+                            li {
+                              display: grid;
+                            }
+                          </style>
+                          
+                          <body>
+                            <p>Display a list of links as a horizontal menu:</p>
+                            <ul>
+                              <li><a href="#home">Home</a></li>
+                              <li><a href="#news">News</a></li>
+                              <li><a href="#contact">Contact</a></li>
+                              <li><a href="#about">About</a></li>
+                            </ul>
+                          </body>
+                          <hr>
+                          
+                          <style>
+                            div.fixed {
+                              position: fixed;
+                              bottom: 30px;
+                              right: 20px;
+                              width: 200px;
+                              height: 30px;
+                              border: 3px solid purple;
+                            }
+                          </style>
+
+                          <h2>Using position: fixed;</h2>
+                          <p>An element with position: fixed;</p>
+                          <div class="fixed">
+                            This is not sticky
+                          </div>
+                          <hr>
+
+                          <style>
+                            div.sticky {
+                              position: sticky;
+                              bottom: 0;
+                              padding: 5px;
+                              background-color: khaki;
+                              border: 2px solid cornflowerblue;
+                            }
+                          </style>
+
+                          <h3>Using position: sticky;</h3>
+                          <div class="sticky">This is not fixed!</div>
+                          <div style="padding-bottom:100px"></div>
+                          <p>Scroll back up to remove the stickyness!</p>
+                          <hr>
+
+                          <style>
+                            #overflowTest {
+                              background: firebrick;
+                              color: midnightblue;
+                              padding: 15px;
+                              width: 90%;
+                              height: 100px;
+                              overflow: scroll;
+                              border: 5px solid navajowhite;
+                            }
+                          </style>
+                          
+                          <h2>CSS overflow Property</h2>
+                          <p>Here, scrollbars are added on overflow:</p>
+                          <div id="overflowTest">Lorem ipsum dolor sit amet, consectetuer adipiscing elit,
+                            sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+                            Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis
+                            nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+                            vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero
+                            eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue
+                            duis dolore te feugait nulla facilisi.
+                          </div>
+                          <hr>
+                          
+                    </head>
+                        </html>
