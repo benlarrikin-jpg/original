@@ -1,0 +1,121 @@
+body {
+    font-family: Montserrat,"Segoe UI";
+    text-align: center;
+}
+h2 {
+    font-family: Montserrat-light;
+    font-size: 2.5rem;
+    line-height: 1.5;
+}
+
+.navbar {
+    padding: .5rem 1rem;
+}
+
+.navbar-brand {
+    font-family: 'Arial Narrow Bold';
+    font-size: 2rem;
+    font-weight: bold;
+    color: coral;
+}
+
+.nav-item {
+    padding: 0 10px;
+}
+
+.nav-link {
+    font-size: 1.2rem;
+    font-family: Montserrat-light;
+}
+
+.download-button {
+    margin: 3% 3% 3% 0;
+}
+
+.row {
+    padding: 3% 16%;
+    position: relative;
+    width: 100%;
+}
+
+.title-image {
+    width: 130%;
+    transform: rotate(25deg);
+    position: relative;
+}
+
+.carousel-item {
+    color: white;
+}
+
+.testimonial-image {
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+.top {
+    font-family: Montserrat-Black;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.press-logo {
+    width: 15%;
+    margin: 20px 20px 30px;
+}
+
+.motion {
+    padding: 7% 15%;
+}
+
+.colored-section {
+    background-color: coral;
+}
+
+.white-section {
+    background-color: white;
+}
+
+#title {
+    color: blanchedalmond;
+}
+
+#top-text {
+    text-align: left;
+}
+
+#features {
+    position: relative;
+}
+
+#testimonials {
+    background-color: darksalmon;
+    text-align: center;
+}
+
+#press {
+    background-color: darksalmon;
+    padding-bottom: 3%;
+    text-align: center;
+}
+
+#cta {
+    padding: 3% 8%;
+    color: white;
+    text-align: center;
+}
+
+#footer {
+    text-align: center;
+}
+
+@media (max-width: 1028px) {
+    .title-image {
+        position: static;
+        transform: rotate(0);
+    }
+    #title {
+        text-align: center;
+    }
+}
